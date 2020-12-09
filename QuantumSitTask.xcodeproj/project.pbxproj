@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAFD32FF258131E000A4D7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD32FE258131E000A4D7EA /* AppDelegate.swift */; };
+		CAFD3301258131E000A4D7EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3300258131E000A4D7EA /* SceneDelegate.swift */; };
+		CAFD3303258131E000A4D7EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3302258131E000A4D7EA /* ViewController.swift */; };
+		CAFD3306258131E000A4D7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFD3304258131E000A4D7EA /* Main.storyboard */; };
+		CAFD3308258131E200A4D7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFD3307258131E200A4D7EA /* Assets.xcassets */; };
+		CAFD330B258131E200A4D7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFD3309258131E200A4D7EA /* LaunchScreen.storyboard */; };
+		CAFD3316258131E300A4D7EA /* QuantumSitTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3315258131E300A4D7EA /* QuantumSitTaskTests.swift */; };
+		CAFD3321258131E300A4D7EA /* QuantumSitTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3320258131E300A4D7EA /* QuantumSitTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFD3312258131E300A4D7EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFD32F3258131E000A4D7EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFD32FA258131E000A4D7EA;
+			remoteInfo = QuantumSitTask;
+		};
+		CAFD331D258131E300A4D7EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFD32F3258131E000A4D7EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFD32FA258131E000A4D7EA;
+			remoteInfo = QuantumSitTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAFD32FB258131E000A4D7EA /* QuantumSitTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantumSitTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFD32FE258131E000A4D7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAFD3300258131E000A4D7EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAFD3302258131E000A4D7EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAFD3305258131E000A4D7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFD3307258131E200A4D7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFD330A258131E200A4D7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFD330C258131E200A4D7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFD3311258131E300A4D7EA /* QuantumSitTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumSitTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFD3315258131E300A4D7EA /* QuantumSitTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumSitTaskTests.swift; sourceTree = "<group>"; };
+		CAFD3317258131E300A4D7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFD331C258131E300A4D7EA /* QuantumSitTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumSitTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFD3320258131E300A4D7EA /* QuantumSitTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumSitTaskUITests.swift; sourceTree = "<group>"; };
+		CAFD3322258131E300A4D7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFD32F8258131E000A4D7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFD330E258131E300A4D7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFD3319258131E300A4D7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFD32F2258131E000A4D7EA = {
+			isa = PBXGroup;
+			children = (
+				CAFD32FD258131E000A4D7EA /* QuantumSitTask */,
+				CAFD3314258131E300A4D7EA /* QuantumSitTaskTests */,
+				CAFD331F258131E300A4D7EA /* QuantumSitTaskUITests */,
+				CAFD32FC258131E000A4D7EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFD32FC258131E000A4D7EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD32FB258131E000A4D7EA /* QuantumSitTask.app */,
+				CAFD3311258131E300A4D7EA /* QuantumSitTaskTests.xctest */,
+				CAFD331C258131E300A4D7EA /* QuantumSitTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFD32FD258131E000A4D7EA /* QuantumSitTask */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD32FE258131E000A4D7EA /* AppDelegate.swift */,
+				CAFD3300258131E000A4D7EA /* SceneDelegate.swift */,
+				CAFD3302258131E000A4D7EA /* ViewController.swift */,
+				CAFD3304258131E000A4D7EA /* Main.storyboard */,
+				CAFD3307258131E200A4D7EA /* Assets.xcassets */,
+				CAFD3309258131E200A4D7EA /* LaunchScreen.storyboard */,
+				CAFD330C258131E200A4D7EA /* Info.plist */,
+			);
+			path = QuantumSitTask;
+			sourceTree = "<group>";
+		};
+		CAFD3314258131E300A4D7EA /* QuantumSitTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD3315258131E300A4D7EA /* QuantumSitTaskTests.swift */,
+				CAFD3317258131E300A4D7EA /* Info.plist */,
+			);
+			path = QuantumSitTaskTests;
+			sourceTree = "<group>";
+		};
+		CAFD331F258131E300A4D7EA /* QuantumSitTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD3320258131E300A4D7EA /* QuantumSitTaskUITests.swift */,
+				CAFD3322258131E300A4D7EA /* Info.plist */,
+			);
+			path = QuantumSitTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFD32FA258131E000A4D7EA /* QuantumSitTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFD3325258131E300A4D7EA /* Build configuration list for PBXNativeTarget "QuantumSitTask" */;
+			buildPhases = (
+				CAFD32F7258131E000A4D7EA /* Sources */,
+				CAFD32F8258131E000A4D7EA /* Frameworks */,
+				CAFD32F9258131E000A4D7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuantumSitTask;
+			productName = QuantumSitTask;
+			productReference = CAFD32FB258131E000A4D7EA /* QuantumSitTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFD3310258131E300A4D7EA /* QuantumSitTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFD3328258131E300A4D7EA /* Build configuration list for PBXNativeTarget "QuantumSitTaskTests" */;
+			buildPhases = (
+				CAFD330D258131E300A4D7EA /* Sources */,
+				CAFD330E258131E300A4D7EA /* Frameworks */,
+				CAFD330F258131E300A4D7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFD3313258131E300A4D7EA /* PBXTargetDependency */,
+			);
+			name = QuantumSitTaskTests;
+			productName = QuantumSitTaskTests;
+			productReference = CAFD3311258131E300A4D7EA /* QuantumSitTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFD331B258131E300A4D7EA /* QuantumSitTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFD332B258131E300A4D7EA /* Build configuration list for PBXNativeTarget "QuantumSitTaskUITests" */;
+			buildPhases = (
+				CAFD3318258131E300A4D7EA /* Sources */,
+				CAFD3319258131E300A4D7EA /* Frameworks */,
+				CAFD331A258131E300A4D7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFD331E258131E300A4D7EA /* PBXTargetDependency */,
+			);
+			name = QuantumSitTaskUITests;
+			productName = QuantumSitTaskUITests;
+			productReference = CAFD331C258131E300A4D7EA /* QuantumSitTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFD32F3258131E000A4D7EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CAFD32FA258131E000A4D7EA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					CAFD3310258131E300A4D7EA = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CAFD32FA258131E000A4D7EA;
+					};
+					CAFD331B258131E300A4D7EA = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CAFD32FA258131E000A4D7EA;
+					};
+				};
+			};
+			buildConfigurationList = CAFD32F6258131E000A4D7EA /* Build configuration list for PBXProject "QuantumSitTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFD32F2258131E000A4D7EA;
+			productRefGroup = CAFD32FC258131E000A4D7EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFD32FA258131E000A4D7EA /* QuantumSitTask */,
+				CAFD3310258131E300A4D7EA /* QuantumSitTaskTests */,
+				CAFD331B258131E300A4D7EA /* QuantumSitTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFD32F9258131E000A4D7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFD330B258131E200A4D7EA /* LaunchScreen.storyboard in Resources */,
+				CAFD3308258131E200A4D7EA /* Assets.xcassets in Resources */,
+				CAFD3306258131E000A4D7EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFD330F258131E300A4D7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFD331A258131E300A4D7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFD32F7258131E000A4D7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFD3303258131E000A4D7EA /* ViewController.swift in Sources */,
+				CAFD32FF258131E000A4D7EA /* AppDelegate.swift in Sources */,
+				CAFD3301258131E000A4D7EA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFD330D258131E300A4D7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFD3316258131E300A4D7EA /* QuantumSitTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFD3318258131E300A4D7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFD3321258131E300A4D7EA /* QuantumSitTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFD3313258131E300A4D7EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFD32FA258131E000A4D7EA /* QuantumSitTask */;
+			targetProxy = CAFD3312258131E300A4D7EA /* PBXContainerItemProxy */;
+		};
+		CAFD331E258131E300A4D7EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFD32FA258131E000A4D7EA /* QuantumSitTask */;
+			targetProxy = CAFD331D258131E300A4D7EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFD3304258131E000A4D7EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFD3305258131E000A4D7EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFD3309258131E200A4D7EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFD330A258131E200A4D7EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFD3323258131E300A4D7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAFD3324258131E300A4D7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFD3326258131E300A4D7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuantumSitTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.QuantumSitTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFD3327258131E300A4D7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuantumSitTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.QuantumSitTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAFD3329258131E300A4D7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuantumSitTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.QuantumSitTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuantumSitTask.app/QuantumSitTask";
+			};
+			name = Debug;
+		};
+		CAFD332A258131E300A4D7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuantumSitTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.QuantumSitTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuantumSitTask.app/QuantumSitTask";
+			};
+			name = Release;
+		};
+		CAFD332C258131E300A4D7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuantumSitTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.QuantumSitTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuantumSitTask;
+			};
+			name = Debug;
+		};
+		CAFD332D258131E300A4D7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuantumSitTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.QuantumSitTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuantumSitTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFD32F6258131E000A4D7EA /* Build configuration list for PBXProject "QuantumSitTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFD3323258131E300A4D7EA /* Debug */,
+				CAFD3324258131E300A4D7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFD3325258131E300A4D7EA /* Build configuration list for PBXNativeTarget "QuantumSitTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFD3326258131E300A4D7EA /* Debug */,
+				CAFD3327258131E300A4D7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFD3328258131E300A4D7EA /* Build configuration list for PBXNativeTarget "QuantumSitTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFD3329258131E300A4D7EA /* Debug */,
+				CAFD332A258131E300A4D7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFD332B258131E300A4D7EA /* Build configuration list for PBXNativeTarget "QuantumSitTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFD332C258131E300A4D7EA /* Debug */,
+				CAFD332D258131E300A4D7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFD32F3258131E000A4D7EA /* Project object */;
+}
