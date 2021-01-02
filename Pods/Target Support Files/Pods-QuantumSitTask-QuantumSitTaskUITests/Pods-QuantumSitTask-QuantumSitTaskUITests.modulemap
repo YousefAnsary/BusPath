@@ -1,0 +1,6 @@
+framework module Pods_QuantumSitTask_QuantumSitTaskUITests {
+  umbrella header "Pods-QuantumSitTask-QuantumSitTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,18 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		748DE948FAF699452A147A04 /* Pods_QuantumSitTask_QuantumSitTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF52DA37439C4C573B01369 /* Pods_QuantumSitTask_QuantumSitTaskUITests.framework */; };
+		BA0CB6FE1C5E2EE84B16FFDD /* Pods_QuantumSitTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AEB4B68087E2291A60F7FA /* Pods_QuantumSitTask.framework */; };
+		CABB46602581F9EB00DAC4BA /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABB465F2581F9EB00DAC4BA /* UserSession.swift */; };
+		CAD31D5525822AB400831452 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD31D5425822AB400831452 /* String+.swift */; };
+		CAD31D5A2582331900831452 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD31D592582331900831452 /* UIView.swift */; };
 		CAFD32FF258131E000A4D7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD32FE258131E000A4D7EA /* AppDelegate.swift */; };
 		CAFD3301258131E000A4D7EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3300258131E000A4D7EA /* SceneDelegate.swift */; };
-		CAFD3303258131E000A4D7EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3302258131E000A4D7EA /* ViewController.swift */; };
+		CAFD3303258131E000A4D7EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3302258131E000A4D7EA /* MainViewController.swift */; };
 		CAFD3306258131E000A4D7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFD3304258131E000A4D7EA /* Main.storyboard */; };
 		CAFD3308258131E200A4D7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFD3307258131E200A4D7EA /* Assets.xcassets */; };
 		CAFD330B258131E200A4D7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFD3309258131E200A4D7EA /* LaunchScreen.storyboard */; };
 		CAFD3316258131E300A4D7EA /* QuantumSitTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3315258131E300A4D7EA /* QuantumSitTaskTests.swift */; };
 		CAFD3321258131E300A4D7EA /* QuantumSitTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3320258131E300A4D7EA /* QuantumSitTaskUITests.swift */; };
+		CAFD3349258134F500A4D7EA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3348258134F500A4D7EA /* AppCoordinator.swift */; };
+		CAFD334F2581350800A4D7EA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD334D2581350800A4D7EA /* ViewModel.swift */; };
+		CAFD33502581350800A4D7EA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD334E2581350800A4D7EA /* BaseViewController.swift */; };
+		CAFD3358258135D900A4D7EA /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD3357258135D900A4D7EA /* APIError.swift */; };
+		CAFD335D2581364900A4D7EA /* APIErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD335C2581364900A4D7EA /* APIErrorType.swift */; };
+		CAFD336E258137D800A4D7EA /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD336D258137D800A4D7EA /* UIViewController+.swift */; };
+		CAFD33772581391F00A4D7EA /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33762581391F00A4D7EA /* ResponseModel.swift */; };
+		CAFD337C25813B1700A4D7EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD337B25813B1700A4D7EA /* User.swift */; };
+		CAFD338125813B4200A4D7EA /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD338025813B4200A4D7EA /* Bus.swift */; };
+		CAFD338625813B6200A4D7EA /* StopPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD338525813B6200A4D7EA /* StopPoint.swift */; };
+		CAFD338B25813B7A00A4D7EA /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD338A25813B7A00A4D7EA /* Route.swift */; };
+		CAFD339025813B9D00A4D7EA /* DriverBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD338F25813B9D00A4D7EA /* DriverBus.swift */; };
+		CAFD339525813BBA00A4D7EA /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD339425813BBA00A4D7EA /* Driver.swift */; };
+		CAFD339D25813BD600A4D7EA /* DropoffLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD339C25813BD600A4D7EA /* DropoffLocation.swift */; };
+		CAFD33A225813BFF00A4D7EA /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33A125813BFF00A4D7EA /* Organization.swift */; };
+		CAFD33A725813C1C00A4D7EA /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33A625813C1C00A4D7EA /* Role.swift */; };
+		CAFD33AC25813C2E00A4D7EA /* Pivot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33AB25813C2E00A4D7EA /* Pivot.swift */; };
+		CAFD33B125813C4500A4D7EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33B025813C4500A4D7EA /* Constants.swift */; };
+		CAFD33B625813C8D00A4D7EA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33B525813C8D00A4D7EA /* Endpoint.swift */; };
+		CAFD33BB25813CEC00A4D7EA /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33BA25813CEC00A4D7EA /* HTTPMethod.swift */; };
+		CAFD33C025813D3C00A4D7EA /* MainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33BF25813D3C00A4D7EA /* MainService.swift */; };
+		CAFD33C525813DA100A4D7EA /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33C425813DA100A4D7EA /* URLSessionManager.swift */; };
+		CAFD33CD25813E6C00A4D7EA /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33CC25813E6C00A4D7EA /* ParameterEncoding.swift */; };
+		CAFD33D42581462200A4D7EA /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33D32581462200A4D7EA /* Data+.swift */; };
+		CAFD33DD25814B3000A4D7EA /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33DC25814B3000A4D7EA /* DataInteractor.swift */; };
+		CAFD33E52581564700A4D7EA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD33E42581564700A4D7EA /* MainViewModel.swift */; };
+		F043ECE4E9A209D1AA9A979A /* Pods_QuantumSitTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131CDF55EAB61D082B717843 /* Pods_QuantumSitTaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +67,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		131CDF55EAB61D082B717843 /* Pods_QuantumSitTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuantumSitTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DD439DAF08B0D9615F5B51 /* Pods-QuantumSitTask-QuantumSitTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantumSitTask-QuantumSitTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-QuantumSitTask-QuantumSitTaskUITests/Pods-QuantumSitTask-QuantumSitTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		521C3A94D3DBBA62B58108AD /* Pods-QuantumSitTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantumSitTaskTests.release.xcconfig"; path = "Target Support Files/Pods-QuantumSitTaskTests/Pods-QuantumSitTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FF52DA37439C4C573B01369 /* Pods_QuantumSitTask_QuantumSitTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuantumSitTask_QuantumSitTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AEB4B68087E2291A60F7FA /* Pods_QuantumSitTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuantumSitTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B95A9FA6207C8A7D903118 /* Pods-QuantumSitTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantumSitTask.release.xcconfig"; path = "Target Support Files/Pods-QuantumSitTask/Pods-QuantumSitTask.release.xcconfig"; sourceTree = "<group>"; };
+		C42901A450F255D927E40BA2 /* Pods-QuantumSitTask-QuantumSitTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantumSitTask-QuantumSitTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuantumSitTask-QuantumSitTaskUITests/Pods-QuantumSitTask-QuantumSitTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CABB465F2581F9EB00DAC4BA /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		CAD31D5425822AB400831452 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		CAD31D592582331900831452 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		CAFD32FB258131E000A4D7EA /* QuantumSitTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantumSitTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFD32FE258131E000A4D7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAFD3300258131E000A4D7EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CAFD3302258131E000A4D7EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAFD3302258131E000A4D7EA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CAFD3305258131E000A4D7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAFD3307258131E200A4D7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAFD330A258131E200A4D7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +91,34 @@
 		CAFD331C258131E300A4D7EA /* QuantumSitTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumSitTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFD3320258131E300A4D7EA /* QuantumSitTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumSitTaskUITests.swift; sourceTree = "<group>"; };
 		CAFD3322258131E300A4D7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFD3348258134F500A4D7EA /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CAFD334D2581350800A4D7EA /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CAFD334E2581350800A4D7EA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CAFD3357258135D900A4D7EA /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		CAFD335C2581364900A4D7EA /* APIErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorType.swift; sourceTree = "<group>"; };
+		CAFD336D258137D800A4D7EA /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		CAFD33762581391F00A4D7EA /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		CAFD337B25813B1700A4D7EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CAFD338025813B4200A4D7EA /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		CAFD338525813B6200A4D7EA /* StopPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopPoint.swift; sourceTree = "<group>"; };
+		CAFD338A25813B7A00A4D7EA /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		CAFD338F25813B9D00A4D7EA /* DriverBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverBus.swift; sourceTree = "<group>"; };
+		CAFD339425813BBA00A4D7EA /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		CAFD339C25813BD600A4D7EA /* DropoffLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropoffLocation.swift; sourceTree = "<group>"; };
+		CAFD33A125813BFF00A4D7EA /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		CAFD33A625813C1C00A4D7EA /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		CAFD33AB25813C2E00A4D7EA /* Pivot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pivot.swift; sourceTree = "<group>"; };
+		CAFD33B025813C4500A4D7EA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CAFD33B525813C8D00A4D7EA /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		CAFD33BA25813CEC00A4D7EA /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		CAFD33BF25813D3C00A4D7EA /* MainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainService.swift; sourceTree = "<group>"; };
+		CAFD33C425813DA100A4D7EA /* URLSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionManager.swift; sourceTree = "<group>"; };
+		CAFD33CC25813E6C00A4D7EA /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		CAFD33D32581462200A4D7EA /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
+		CAFD33DC25814B3000A4D7EA /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
+		CAFD33E42581564700A4D7EA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F201655D201BA3E70C2A72DA /* Pods-QuantumSitTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantumSitTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-QuantumSitTaskTests/Pods-QuantumSitTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F97CE357ACCA08A46CA85DE8 /* Pods-QuantumSitTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuantumSitTask.debug.xcconfig"; path = "Target Support Files/Pods-QuantumSitTask/Pods-QuantumSitTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0CB6FE1C5E2EE84B16FFDD /* Pods_QuantumSitTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F043ECE4E9A209D1AA9A979A /* Pods_QuantumSitTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +142,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748DE948FAF699452A147A04 /* Pods_QuantumSitTask_QuantumSitTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A22712D4D1B4760D3ED9993 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F97CE357ACCA08A46CA85DE8 /* Pods-QuantumSitTask.debug.xcconfig */,
+				B2B95A9FA6207C8A7D903118 /* Pods-QuantumSitTask.release.xcconfig */,
+				C42901A450F255D927E40BA2 /* Pods-QuantumSitTask-QuantumSitTaskUITests.debug.xcconfig */,
+				32DD439DAF08B0D9615F5B51 /* Pods-QuantumSitTask-QuantumSitTaskUITests.release.xcconfig */,
+				F201655D201BA3E70C2A72DA /* Pods-QuantumSitTaskTests.debug.xcconfig */,
+				521C3A94D3DBBA62B58108AD /* Pods-QuantumSitTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CABB465E2581F9DA00DAC4BA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CABB465F2581F9EB00DAC4BA /* UserSession.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		CAFD32F2258131E000A4D7EA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +177,8 @@
 				CAFD3314258131E300A4D7EA /* QuantumSitTaskTests */,
 				CAFD331F258131E300A4D7EA /* QuantumSitTaskUITests */,
 				CAFD32FC258131E000A4D7EA /* Products */,
+				6A22712D4D1B4760D3ED9993 /* Pods */,
+				EDE379C3AAD1F2F97C7EE5CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +195,18 @@
 		CAFD32FD258131E000A4D7EA /* QuantumSitTask */ = {
 			isa = PBXGroup;
 			children = (
-				CAFD32FE258131E000A4D7EA /* AppDelegate.swift */,
-				CAFD3300258131E000A4D7EA /* SceneDelegate.swift */,
-				CAFD3302258131E000A4D7EA /* ViewController.swift */,
-				CAFD3304258131E000A4D7EA /* Main.storyboard */,
-				CAFD3307258131E200A4D7EA /* Assets.xcassets */,
-				CAFD3309258131E200A4D7EA /* LaunchScreen.storyboard */,
 				CAFD330C258131E200A4D7EA /* Info.plist */,
+				CAFD33352581325A00A4D7EA /* Assets */,
+				CAFD33342581322500A4D7EA /* AppBase */,
+				CAFD3331258131FE00A4D7EA /* View */,
+				CAFD33372581327E00A4D7EA /* ViewController */,
+				CAFD33322581320300A4D7EA /* ViewModel */,
+				CAFD3347258134F500A4D7EA /* Coordinator */,
+				CAFD33DB25814AE100A4D7EA /* Interactor */,
+				CAFD33752581380E00A4D7EA /* Service */,
+				CAFD33332581320800A4D7EA /* Entity */,
+				CABB465E2581F9DA00DAC4BA /* Utils */,
+				CAFD336C258137B400A4D7EA /* Extensions */,
 			);
 			path = QuantumSitTask;
 			sourceTree = "<group>";
@@ -128,6 +229,120 @@
 			path = QuantumSitTaskUITests;
 			sourceTree = "<group>";
 		};
+		CAFD3331258131FE00A4D7EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD3309258131E200A4D7EA /* LaunchScreen.storyboard */,
+				CAFD3304258131E000A4D7EA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAFD33322581320300A4D7EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD33E42581564700A4D7EA /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CAFD33332581320800A4D7EA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD3357258135D900A4D7EA /* APIError.swift */,
+				CAFD335C2581364900A4D7EA /* APIErrorType.swift */,
+				CAFD33CC25813E6C00A4D7EA /* ParameterEncoding.swift */,
+				CAFD33762581391F00A4D7EA /* ResponseModel.swift */,
+				CAFD337B25813B1700A4D7EA /* User.swift */,
+				CAFD338025813B4200A4D7EA /* Bus.swift */,
+				CAFD338525813B6200A4D7EA /* StopPoint.swift */,
+				CAFD338A25813B7A00A4D7EA /* Route.swift */,
+				CAFD338F25813B9D00A4D7EA /* DriverBus.swift */,
+				CAFD339425813BBA00A4D7EA /* Driver.swift */,
+				CAFD339C25813BD600A4D7EA /* DropoffLocation.swift */,
+				CAFD33A125813BFF00A4D7EA /* Organization.swift */,
+				CAFD33A625813C1C00A4D7EA /* Role.swift */,
+				CAFD33AB25813C2E00A4D7EA /* Pivot.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CAFD33342581322500A4D7EA /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD32FE258131E000A4D7EA /* AppDelegate.swift */,
+				CAFD3300258131E000A4D7EA /* SceneDelegate.swift */,
+				CAFD33B025813C4500A4D7EA /* Constants.swift */,
+				CAFD334E2581350800A4D7EA /* BaseViewController.swift */,
+				CAFD334D2581350800A4D7EA /* ViewModel.swift */,
+			);
+			path = AppBase;
+			sourceTree = "<group>";
+		};
+		CAFD33352581325A00A4D7EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD3307258131E200A4D7EA /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CAFD33372581327E00A4D7EA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD3302258131E000A4D7EA /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CAFD3347258134F500A4D7EA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD3348258134F500A4D7EA /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CAFD336C258137B400A4D7EA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD336D258137D800A4D7EA /* UIViewController+.swift */,
+				CAFD33D32581462200A4D7EA /* Data+.swift */,
+				CAD31D5425822AB400831452 /* String+.swift */,
+				CAD31D592582331900831452 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CAFD33752581380E00A4D7EA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD33C425813DA100A4D7EA /* URLSessionManager.swift */,
+				CAFD33B525813C8D00A4D7EA /* Endpoint.swift */,
+				CAFD33BA25813CEC00A4D7EA /* HTTPMethod.swift */,
+				CAFD33BF25813D3C00A4D7EA /* MainService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CAFD33DB25814AE100A4D7EA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD33DC25814B3000A4D7EA /* DataInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EDE379C3AAD1F2F97C7EE5CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94AEB4B68087E2291A60F7FA /* Pods_QuantumSitTask.framework */,
+				8FF52DA37439C4C573B01369 /* Pods_QuantumSitTask_QuantumSitTaskUITests.framework */,
+				131CDF55EAB61D082B717843 /* Pods_QuantumSitTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAFD3325258131E300A4D7EA /* Build configuration list for PBXNativeTarget "QuantumSitTask" */;
 			buildPhases = (
+				9B5F2F8E8FAD590FF6BF1F8E /* [CP] Check Pods Manifest.lock */,
 				CAFD32F7258131E000A4D7EA /* Sources */,
 				CAFD32F8258131E000A4D7EA /* Frameworks */,
 				CAFD32F9258131E000A4D7EA /* Resources */,
+				5CB1E7FB8C1E358A42247D2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +369,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAFD3328258131E300A4D7EA /* Build configuration list for PBXNativeTarget "QuantumSitTaskTests" */;
 			buildPhases = (
+				8A6C2E7AF3101917B6556FDA /* [CP] Check Pods Manifest.lock */,
 				CAFD330D258131E300A4D7EA /* Sources */,
 				CAFD330E258131E300A4D7EA /* Frameworks */,
 				CAFD330F258131E300A4D7EA /* Resources */,
@@ -170,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAFD332B258131E300A4D7EA /* Build configuration list for PBXNativeTarget "QuantumSitTaskUITests" */;
 			buildPhases = (
+				05E5EE9DBA4D9C7BE1374AEA /* [CP] Check Pods Manifest.lock */,
 				CAFD3318258131E300A4D7EA /* Sources */,
 				CAFD3319258131E300A4D7EA /* Frameworks */,
 				CAFD331A258131E300A4D7EA /* Resources */,
+				BC400BE80ECF12E51E11BCCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +473,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05E5EE9DBA4D9C7BE1374AEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuantumSitTask-QuantumSitTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CB1E7FB8C1E358A42247D2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuantumSitTask/Pods-QuantumSitTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuantumSitTask/Pods-QuantumSitTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuantumSitTask/Pods-QuantumSitTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A6C2E7AF3101917B6556FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuantumSitTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5F2F8E8FAD590FF6BF1F8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuantumSitTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC400BE80ECF12E51E11BCCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuantumSitTask-QuantumSitTaskUITests/Pods-QuantumSitTask-QuantumSitTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuantumSitTask-QuantumSitTaskUITests/Pods-QuantumSitTask-QuantumSitTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuantumSitTask-QuantumSitTaskUITests/Pods-QuantumSitTask-QuantumSitTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAFD32F7258131E000A4D7EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAFD3303258131E000A4D7EA /* ViewController.swift in Sources */,
+				CAD31D5A2582331900831452 /* UIView.swift in Sources */,
+				CAFD33502581350800A4D7EA /* BaseViewController.swift in Sources */,
+				CAFD334F2581350800A4D7EA /* ViewModel.swift in Sources */,
+				CAFD33A725813C1C00A4D7EA /* Role.swift in Sources */,
+				CAFD338625813B6200A4D7EA /* StopPoint.swift in Sources */,
+				CAFD33C525813DA100A4D7EA /* URLSessionManager.swift in Sources */,
+				CAFD33AC25813C2E00A4D7EA /* Pivot.swift in Sources */,
+				CAFD3349258134F500A4D7EA /* AppCoordinator.swift in Sources */,
+				CAFD335D2581364900A4D7EA /* APIErrorType.swift in Sources */,
+				CAFD33E52581564700A4D7EA /* MainViewModel.swift in Sources */,
+				CAFD339025813B9D00A4D7EA /* DriverBus.swift in Sources */,
+				CAFD33D42581462200A4D7EA /* Data+.swift in Sources */,
+				CAFD339D25813BD600A4D7EA /* DropoffLocation.swift in Sources */,
+				CAFD338B25813B7A00A4D7EA /* Route.swift in Sources */,
+				CAFD33B625813C8D00A4D7EA /* Endpoint.swift in Sources */,
+				CAFD3303258131E000A4D7EA /* MainViewController.swift in Sources */,
+				CAFD33B125813C4500A4D7EA /* Constants.swift in Sources */,
+				CAFD336E258137D800A4D7EA /* UIViewController+.swift in Sources */,
+				CAFD339525813BBA00A4D7EA /* Driver.swift in Sources */,
+				CAFD33C025813D3C00A4D7EA /* MainService.swift in Sources */,
+				CAFD338125813B4200A4D7EA /* Bus.swift in Sources */,
 				CAFD32FF258131E000A4D7EA /* AppDelegate.swift in Sources */,
+				CABB46602581F9EB00DAC4BA /* UserSession.swift in Sources */,
+				CAFD33DD25814B3000A4D7EA /* DataInteractor.swift in Sources */,
 				CAFD3301258131E000A4D7EA /* SceneDelegate.swift in Sources */,
+				CAD31D5525822AB400831452 /* String+.swift in Sources */,
+				CAFD33CD25813E6C00A4D7EA /* ParameterEncoding.swift in Sources */,
+				CAFD33772581391F00A4D7EA /* ResponseModel.swift in Sources */,
+				CAFD3358258135D900A4D7EA /* APIError.swift in Sources */,
+				CAFD33BB25813CEC00A4D7EA /* HTTPMethod.swift in Sources */,
+				CAFD33A225813BFF00A4D7EA /* Organization.swift in Sources */,
+				CAFD337C25813B1700A4D7EA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +785,7 @@
 		};
 		CAFD3326258131E300A4D7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97CE357ACCA08A46CA85DE8 /* Pods-QuantumSitTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +804,7 @@
 		};
 		CAFD3327258131E300A4D7EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B95A9FA6207C8A7D903118 /* Pods-QuantumSitTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +823,7 @@
 		};
 		CAFD3329258131E300A4D7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F201655D201BA3E70C2A72DA /* Pods-QuantumSitTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +845,7 @@
 		};
 		CAFD332A258131E300A4D7EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521C3A94D3DBBA62B58108AD /* Pods-QuantumSitTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +867,7 @@
 		};
 		CAFD332C258131E300A4D7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42901A450F255D927E40BA2 /* Pods-QuantumSitTask-QuantumSitTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +887,7 @@
 		};
 		CAFD332D258131E300A4D7EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DD439DAF08B0D9615F5B51 /* Pods-QuantumSitTask-QuantumSitTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
